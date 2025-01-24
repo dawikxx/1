@@ -12,32 +12,33 @@ header {
     text-align: center;
 }
 
-header nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+header h1 {
+    margin: 0;
 }
 
 main {
     padding: 2rem;
-    margin: 1rem 0;
+    margin: 1rem;
 }
 
 section {
+    background-color: #fff;
     padding: 2rem;
     margin: 1rem 0;
-    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1rem auto;
 }
 
 footer {
